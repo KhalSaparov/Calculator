@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Knopka">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:backgroundTint">@color/gray</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="cornerRadius">45dp</item>
+    </style>
+
+    <style name="Knopka_orange" parent="Knopka">
+        <item name="android:backgroundTint">@color/orange</item>
+    </style>
+
+    <style name="Knopka_dark" parent="Knopka">
+        <item name="android:backgroundTint">@color/dark_gray</item>
+    </style>
+
+    <style name="Knopka_bottom" parent="Knopka">
+        <item name="android:backgroundTint">@color/gray</item>
+        <item name="android:layout_weight">1.5</item>
+    </style>
+
+    <style name="Knopka_bottom_orange" parent="Knopka">
+        <item name="android:backgroundTint">@color/orange</item>
+        <item name="android:layout_weight">1.5</item>
+    </style>
+
+    <style name="Knopka_dark_horizontal" parent="Knopka">
+        <item name="android:backgroundTint">@color/dark_gray</item>
+    </style>
+
+</resources>

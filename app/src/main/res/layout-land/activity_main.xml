@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:gravity="right"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:id="@+id/result_1">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:gravity="right"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:id="@+id/input">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                style="@style/Knopka_dark_horizontal"
+                android:text="@string/skobka_1"
+                android:id="@+id/skobka_1">
+            </Button>
+
+            <Button
+                style="@style/Knopka_dark_horizontal"
+                android:text="@string/skobka_2"
+                android:id="@+id/skobka_2">
+            </Button>
+
+            <Button
+                style="@style/Knopka_dark_horizontal"
+                android:text="@string/fakt"
+                android:id="@+id/fakt">
+            </Button>
+
+            <Button
+                style="@style/Knopka"
+                android:text="@string/AC"
+                android:id="@+id/ac">
+            </Button>
+
+            <Button
+                style="@style/Knopka"
+                android:text="@string/plus_minus"
+                android:id="@+id/plusminus">
+            </Button>
+
+            <Button
+                style="@style/Knopka"
+                android:text="@string/procent"
+                android:id="@+id/procent">
+            </Button>
+
+            <Button
+                style="@style/Knopka_orange"
+                android:text="@string/delenie"
+                android:id="@+id/delenie">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                style="@style/Knopka_dark_horizontal"
+                android:text="@string/sin"
+                android:id="@+id/sinx">
+            </Button>
+
+            <Button
+                style="@style/Knopka_dark_horizontal"
+                android:text="@string/cos"
+                android:id="@+id/cosx">
+            </Button>
+
+            <Button
+                style="@style/Knopka_dark_horizontal"
+                android:text="@string/tg"
+                android:id="@+id/tg">
+            </Button>
+
+            <Button
+                style="@style/Knopka"
+                android:text="@string/sem"
+                android:id="@+id/b7">
+            </Button>
+
+            <Button
+                style="@style/Knopka"
+                android:text="@string/vosem"
+                android:id="@+id/b8">
+            </Button>
+
+            <Button
+                style="@style/Knopka"
+                android:text="@string/devyat"
+                android:id="@+id/b9">
+            </Button>
+
+            <Button
+                style="@style/Knopka_orange"
+                android:text="@string/umnojenie"
+                android:id="@+id/umnojenie">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                style="@style/Knopka_dark_horizontal"
+                android:text="@string/x2"
+                android:id="@+id/x2">
+            </Button>
+
+            <Button
+                style="@style/Knopka_dark_horizontal"
+                android:text="@string/xy"
+                android:id="@+id/xy">
+            </Button>
+
+            <Button
+                style="@style/Knopka_dark_horizontal"
+                android:text="@string/sqrt"
+                android:id="@+id/sqrt">
+            </Button>
+
+            <Button
+                style="@style/Knopka"
+                android:text="@string/chetyri"
+                android:id="@+id/b4">
+            </Button>
+
+            <Button
+                style="@style/Knopka"
+                android:text="@string/pyat"
+                android:id="@+id/b5">
+            </Button>
+
+            <Button
+                style="@style/Knopka"
+                android:text="@string/shest"
+                android:id="@+id/b6">
+            </Button>
+
+            <Button
+                style="@style/Knopka_orange"
+                android:text="@string/minus"
+                android:id="@+id/minus">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                style="@style/Knopka_dark_horizontal"
+                android:text="@string/atan"
+                android:id="@+id/atan">
+            </Button>
+
+            <Button
+                style="@style/Knopka_dark_horizontal"
+                android:text="@string/rand"
+                android:id="@+id/rand">
+            </Button>
+
+            <Button
+                style="@style/Knopka_dark_horizontal"
+                android:text="@string/pi"
+                android:id="@+id/pi">
+            </Button>
+
+            <Button
+                style="@style/Knopka"
+                android:text="@string/odin"
+                android:id="@+id/b1">
+            </Button>
+
+            <Button
+                style="@style/Knopka"
+                android:text="@string/dva"
+                android:id="@+id/b2">
+            </Button>
+
+            <Button
+                style="@style/Knopka"
+                android:text="@string/tri"
+                android:id="@+id/b3">
+            </Button>
+
+            <Button
+                style="@style/Knopka_orange"
+                android:text="@string/plus"
+                android:id="@+id/plus">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                style="@style/Knopka_dark_horizontal"
+                android:text="@string/log10"
+                android:id="@+id/log">
+            </Button>
+
+            <Button
+                style="@style/Knopka_dark_horizontal"
+                android:text="@string/ln"
+                android:id="@+id/ln">
+            </Button>
+
+            <Button
+                style="@style/Knopka_dark_horizontal"
+                android:text="@string/ex"
+                android:id="@+id/ex">
+            </Button>
+
+            <Button
+                style="@style/Knopka"
+                android:text="@string/noll"
+                android:id="@+id/b0"
+                android:layout_weight="0.835">
+            </Button>
+
+            <Button
+                style="@style/Knopka"
+                android:text="@string/zapyataya"
+                android:id="@+id/zapyataya">
+            </Button>
+
+            <Button
+                style="@style/Knopka_orange"
+                android:text="@string/rovno"
+                android:id="@+id/rovno">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
