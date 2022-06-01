@@ -163,6 +163,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 input.setText("");
                 break;
             case R.id.plusminus:
+                try {
+                    if(input.getText().charAt(0) != '-' && input.getText() != null ){
+                        input.setText("-"+input.getText());
+                    }else {
+                        String str = (String) input.getText();
+                        input.setText(input.getText().toString().substring(1));
+                    }
+                }catch (Exception e){
+                }
+
                 break;
             case R.id.procent:
                 addToResult("%");
@@ -184,7 +194,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     BigDecimal result = null;
                     Expression expression = new Expression(input.getText().toString());
                     result = expression.eval();
-                    result_1.setText(result.toString());
+                    if(result.toBigInteger().toString().length() < 8){
+                        result_1.setText(result.toBigInteger().toString());
+                    }else {
+                        result_1.setText(result.toString());
+                    }
                     input.setText("");
                 }
                 catch (Expression.ExpressionException e){
